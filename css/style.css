@@ -11376,3 +11376,7 @@ transition: top .3s ease-in-out;
     color: 
     #fdce16;
 }
+
+.navbar-toggle{
+	margin-top: 60px !important; 
+}
