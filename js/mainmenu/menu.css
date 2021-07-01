@@ -1,17 +1,22 @@
+body{
+    --primaryColor : #FF0000;
+}
+
 ul.nav>li>a.active {
-	color:#fdce16;
+
+	color:var(--primaryColor);
 	background-color: #fff;
-	border-top:2px solid #fdce16;
+	border-top:2px solid var(--primaryColor);
 }
 
 ul.nav>li>a:hover.active {
-	color:#fdce16;
+	color:var(--primaryColor);
 	background-color: #fff;
-	border-top:2px solid #fdce16;
+	border-top:2px solid var(--primaryColor);
 }
 
 ul.nav>li>a:hover {
-	color:#fdce16;
+	color:var(--primaryColor);
 }
 
 
