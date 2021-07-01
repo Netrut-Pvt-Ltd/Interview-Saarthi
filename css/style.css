@@ -40,6 +40,8 @@
 ------------------------------------------------------*/
 body{
 	--primaryColor: #FF0000;
+	 overflow-x: hidden;
+	/* overflow: hidden; */
 }
 .site_wrapper {
 	width: 100%;
@@ -622,6 +624,7 @@ body{
 	background-color:var(--primaryColor);
 	border:1px solid var(--primaryColor);
 	
+	
 	transition-property: background-color, color;
 	transition-duration: 0.3s;
 	transition-timing-function: ease-out;
@@ -653,7 +656,7 @@ body{
 	font-weight:bold;
 	margin:0 0 20px 0;
 	padding:80px 0 0 0;
-	color:#161616;
+	color:white;
 	text-transform:uppercase;
 	}
 	
@@ -701,7 +704,7 @@ body{
 	font-weight:bold;
 	margin:0 0 20px 0;
 	padding:0;
-	color:var(--primaryColor);
+	color:white;
 	text-align:center;
 	text-transform:uppercase;
 	}
@@ -725,7 +728,7 @@ body{
 	
 
 .section_title.three{
-	color:#161616;
+	color:white;
 	}
 	
 .section_title_line.three{
@@ -987,7 +990,8 @@ body{
 	float:left;
 	padding:75px 0 0px 0;
 	margin:0px;
-	background:url(../images/site-img14.jpg) 0 0 no-repeat;
+	/* background:url(../images/site-img14.jpg) 0 0 no-repeat; */
+	background-image: radial-gradient(circle at 79% 30%, rgba(230, 230, 230,0.04) 0%, rgba(230, 230, 230,0.04) 50%,rgba(12, 12, 12,0.04) 50%, rgba(12, 12, 12,0.04) 100%),radial-gradient(circle at 53% 89%, rgba(210, 210, 210,0.04) 0%, rgba(210, 210, 210,0.04) 50%,rgba(24, 24, 24,0.04) 50%, rgba(24, 24, 24,0.04) 100%),radial-gradient(circle at 92% 89%, rgba(17, 17, 17,0.04) 0%, rgba(17, 17, 17,0.04) 50%,rgba(205, 205, 205,0.04) 50%, rgba(205, 205, 205,0.04) 100%),radial-gradient(circle at 21% 13%, rgba(124, 124, 124,0.04) 0%, rgba(124, 124, 124,0.04) 50%,rgba(243, 243, 243,0.04) 50%, rgba(243, 243, 243,0.04) 100%),radial-gradient(circle at 77% 0%, rgba(16, 16, 16,0.04) 0%, rgba(16, 16, 16,0.04) 50%,rgba(130, 130, 130,0.04) 50%, rgba(130, 130, 130,0.04) 100%),linear-gradient(90deg, rgb(255,0,0),rgb(255,0,0));
 	}
 
 .section_holder5 .bottom_strip {
@@ -1014,7 +1018,7 @@ body{
 	margin:0px;
 	}
 .section_holder5 p{
-	color:#161616;
+	color:white;
 	}
 	
 /*section 6*/
@@ -1290,7 +1294,7 @@ body{
 	color:#161616;
 	}
 .section_holder7 p{
-	color:#161616;
+	color:white;
 	}
 	
 .section_holder7 a.readmore_but1{
@@ -1833,15 +1837,15 @@ body{
 	}
 
 .section_holder10 .price_table.active .plan_info .title{
-	color:#161616;
+	color:white;
 	}
 .section_holder10 .price_table.active .plan_info span{
-	color:#161616;
+	color:#fff;
 	}
 	
 .section_holder10 .price_table.active .plan_info ul.plan_features li{
 	border-bottom:1px solid #fee273;
-	color:#161616;
+	color:#fff;
 	}
 
 .section_holder10 .price_table.active .plan_info{
@@ -2023,15 +2027,15 @@ body{
 }
 
 .section_holder11 .text_holder_outer.active p{
-	color:#161616;
+	color:#fff;
 }
 
 .section_holder11 .text_holder_outer.active span{
-	color:#161616;
+	color:#fff;
 }
 
 .section_holder11 .text_holder_outer.active span b{
-	color:#161616;
+	color:#fff;
 }
 
 
@@ -2128,7 +2132,7 @@ body{
 	width:85px;
 	height:70px;
 	font-size:14px;
-	color:#161616;
+	color:#fff;
 	text-align:center;
 	padding:0px;
 	margin:0px;
@@ -2146,7 +2150,7 @@ body{
 	font-size:30px;
 	font-weight:600;
 	display:block;
-	color:#161616;
+	color:#fff;
 	text-align:center;
 	padding:12px 0 0 0;
 	margin:0px;
@@ -8177,7 +8181,7 @@ a.knowmore_but:hover {
 	}
 	
 .footer .social_icons_holder ul.social_icons li a.active{
-	color:#161616;
+	color:#fff;
 	background-color:var(--primaryColor);
 	border:1px solid var(--primaryColor);
 	}
@@ -8238,7 +8242,7 @@ a.knowmore_but:hover {
 	margin:0px;
 	float:left;
 	height: 39px;
-	color:#161616;
+	color:#fff;
 	border:1px solid var(--primaryColor);
 	background-color:var(--primaryColor);
 	}
