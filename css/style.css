@@ -41,6 +41,7 @@
 body{
 	--primaryColor: #FF0000;
 	 overflow-x: hidden;
+	 @import url(//fonts.googleapis.com/css?family=Open+Sans:200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic,200,300,400,500,600,700,800);
 	/* overflow: hidden; */
 }
 .site_wrapper {
@@ -1745,7 +1746,7 @@ body{
 	position:absolute;
 	width:140px;
 	height:140px;
-	font-size:40px;
+	font-size:25px;
 	padding:0;
 	color:#fff;
 	line-height:130px;
@@ -1756,7 +1757,7 @@ body{
 	}
 	
 .section_holder10 .plan_info .title{
-	font-size:40px;
+	font-size:25px;
 	font-weight:400;
 	padding:0;
 	color:#fff;
@@ -2355,7 +2356,7 @@ margin-bottom:15px;
 /*hover styles*/
 	
 .section_holder14 .text_box:hover{
-	background-color:var(--primaryColor);
+	background-color:lightgray;
 	}
 	
 	
