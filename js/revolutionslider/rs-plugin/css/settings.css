@@ -1025,7 +1025,7 @@ website:   	http://www.themepunch.com
 .tp-caption.text1 {
   position: absolute;
   font-family: 'Raleway', sans-serif;
-  color: var(--primaryColor);
+  color: #f71735;
   font-size: 120px;
   font-weight: bold;
   text-transform: uppercase;
@@ -1074,7 +1074,7 @@ website:   	http://www.themepunch.com
 .tp-caption.text5 {
   position: absolute;
   font-family: 'Raleway', sans-serif;
-  color: var(--primaryColor);
+  color: #f71735;
   font-size: 80px;
   font-weight: 800;
   text-transform: uppercase;
@@ -1085,7 +1085,7 @@ website:   	http://www.themepunch.com
 .tp-caption.text6 {
   position: absolute;
   font-family: 'Raleway', sans-serif;
-  color: var(--primaryColor);
+  color: #f71735;
   font-size: 50px;
   font-weight: bold;
   text-transform: uppercase;
@@ -1137,7 +1137,7 @@ website:   	http://www.themepunch.com
 .tp-caption.text11 {
   position: absolute;
   font-family: 'Raleway', sans-serif;
-  color: var(--primaryColor);
+  color: #f71735;
   font-size: 80px;
   font-weight: 300;
   text-transform: uppercase;
@@ -1167,7 +1167,7 @@ website:   	http://www.themepunch.com
 .tp-caption.text14 {
   position: absolute;
   font-family: 'Raleway', sans-serif;
-  color: var(--primaryColor);
+  color: #f71735;
   font-size: 50px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1178,7 +1178,7 @@ website:   	http://www.themepunch.com
 .tp-caption.text15 {
   position: absolute;
   font-family: 'Raleway', sans-serif;
-  color: var(--primaryColor);
+  color: #f71735;
   font-size: 90px;
   font-weight: 200;
   text-transform: uppercase;
@@ -1224,7 +1224,7 @@ website:   	http://www.themepunch.com
   font-weight: 300;
   text-transform: uppercase;
   padding: 10px 5px 10px 5px;
-  background-color: var(--primaryColor);
+  background-color: #f71735;
 }
 
 .tp-caption.text20 {
@@ -1242,7 +1242,7 @@ website:   	http://www.themepunch.com
 .tp-caption.text21 {
   position: absolute;
   font-family: 'Raleway', sans-serif;
-  color: var(--primaryColor);
+  color: #f71735;
   font-size: 42px;
   font-weight: bold;
   text-transform: uppercase;
@@ -1288,7 +1288,7 @@ website:   	http://www.themepunch.com
 .tp-caption.text25 {
   position: absolute;
   font-family: 'Raleway', sans-serif;
-  color: var(--primaryColor);
+  color: #f71735;
   font-size: 80px;
   font-weight: 200;
   text-transform: uppercase;
@@ -1320,8 +1320,8 @@ website:   	http://www.themepunch.com
 }
 .tp-caption.slider_but1 a:hover {
   color: #161616;
-  border: 2px solid var(--primaryColor);
-  background-color: var(--primaryColor);
+  border: 2px solid #f71735;
+  background-color: #f71735;
 }
 
 .tp-caption.slider_but2 a {
@@ -1334,7 +1334,7 @@ website:   	http://www.themepunch.com
   text-transform: uppercase;
   padding: 12px 25px;
   border-radius: 2px;
-  background-color: var(--primaryColor);
+  background-color: #f71735;
 }
 .tp-caption.slider_but2 a:hover {
   color: #161616;
