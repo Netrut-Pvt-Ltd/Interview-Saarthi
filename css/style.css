@@ -521,7 +521,7 @@ body{
 	border:2px solid #f71735;
 }
 .readmore_but12:hover {
-	color: #161616;
+	color: #fff;
 	border:2px solid #f71735;
 	background-color: #f71735;
 }
@@ -1647,20 +1647,24 @@ body{
 	}
 	
 .section_holder9 .post_info_holder:hover .post_info_inner{
-	border:1px solid #161616;
+	border:1px solid #fff;
 	}
 
 .section_holder9 .post_info_holder:hover .bottom_line{
-	border-bottom:1px solid #161616;
-	border-top:1px solid #161616;
+	border-bottom:1px solid #fff;
+	border-top:1px solid #fff;
 	}
 	
 .section_holder9 .post_info_holder:hover .info{
-	color:#161616;
+	color:#fff;
+	}
+
+	.section_holder9 .post_info_holder:hover .padd_top2 a{
+	color:#fff;
 	}
 
 .section_holder9 .post_info_holder:hover p{
-	color:#161616;
+	color:#fff;
 	}	
 	
 /*active styles*/
@@ -1670,16 +1674,16 @@ body{
 	}
 	
 .section_holder9 .post_info_holder.active .post_info_inner{
-	border:1px solid #161616;
+	border:1px solid #fff;
 	}
 
 .section_holder9 .post_info_holder.active .bottom_line{
-	border-bottom:1px solid #161616;
-	border-top:1px solid #161616;
+	border-bottom:1px solid #fff;
+	border-top:1px solid #fff;
 	}
 	
 .section_holder9 .post_info_holder.active .info{
-	color:#161616;
+	color:#fff;
 	}
 
 
@@ -1697,7 +1701,7 @@ body{
 	float:left;
 	padding:0;
 	margin:0px;
-	background-color:#161616;
+	background-color:teal;
 	
 	transition-property: background-color, color;
 	transition-duration: 0.3s;
@@ -1739,7 +1743,7 @@ body{
 	padding:0;
 	text-align:center;
 	margin:0px;
-	border:1px solid #161616;
+	border:1px solid #fff;
 	}
 
 .section_holder10 .price_circle{
@@ -1769,7 +1773,7 @@ body{
 	font-size:14px;
 	font-weight:normal;
 	padding:0;
-	color:#827c7c;
+	color:#fff;
 	text-align:center;
 	margin:0 0 0 0;
 	}
@@ -1777,8 +1781,8 @@ body{
 	width:140px;
 	height:4px;
 	padding:0;
-	border-bottom:1px solid #4f4f4f;
-	border-top:1px solid #4f4f4f;
+	border-bottom:1px solid #fff;
+	border-top:1px solid #fff;
 	text-align:center;
 	margin:18px auto 15px auto;
 	}
@@ -1794,20 +1798,20 @@ body{
 .section_holder10 .plan_info ul.plan_features li{
 	width:100%;
 	float:left;
-	color:#827c7c;
+	color:#fff;
 	text-align:center;
 	padding:15px 0;
 	margin:0;
-	border-bottom:1px solid #2d2d2d;
+	border-bottom:1px solid #fff;
 	}
 	
 .section_holder10 .plan_info .singup_but{
-	color:#827c7c;
+	color:#fff;
 	text-align:center;
 	padding:10px 50px;
 	margin:40px 0 40px 100px;
 	float:left;
-	border:1px solid #2d2d2d;
+	border:1px solid #fff;
 	}
 .section_holder10 .plan_info .singup_but:hover{
 	color:#161616;
@@ -1873,15 +1877,15 @@ body{
 	}
 
 .section_holder10 .price_table:hover .plan_info .title{
-	color:#161616;
+	color:#fff;
 	}
 .section_holder10 .price_table:hover .plan_info span{
-	color:#161616;
+	color:#fff;
 	}
 	
 .section_holder10 .price_table:hover .plan_info ul.plan_features li{
 	border-bottom:1px solid #fee273;
-	color:#161616;
+	color:#fff;
 	}
 
 .section_holder10 .price_table:hover .plan_info{
@@ -2006,16 +2010,20 @@ body{
 	transition-timing-function: ease-out;
 }
 
+.section_holder11 .text_holder_outer:hover h6{
+	color:#fff;
+}
+
 .section_holder11 .text_holder_outer:hover p{
-	color:#161616;
+	color:#fff;
 }
 
 .section_holder11 .text_holder_outer:hover span{
-	color:#161616;
+	color:#fff;
 }
 
 .section_holder11 .text_holder_outer:hover span b{
-	color:#161616;
+	color:#fff;
 }
 
 /*active styles*/
@@ -8284,13 +8292,14 @@ a.knowmore_but:hover {
 .scrollup{
     width:40px;
     height:40px;
+	color: white;
     opacity:1;
     position:fixed;
     bottom:22px;
     right:20px;
     display:none;
     text-indent:-9999px;
-    background:#f71735 url(../images/scroll-top-arrow.png) no-repeat 15px 16px;
+    background:#fff url(../images/scroll-top-arrow.png) no-repeat 15px 16px;
 	z-index: 999;
 }
 
